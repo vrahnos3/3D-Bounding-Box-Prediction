@@ -184,10 +184,8 @@ Or to compare selected runs:
 ```bash
 tensorboard --logdir_spec "run1:.\runs\run1_A,run2:.\runs\run2_x"
 ```
-<div align="center">
 <img src="assets/Diagrams/names1.png" width="100" height="100"> 
-<img src="assets/Diagrams/batch_diagram_val.png" width="500" height="180">
-</div>
+<img src="assets/Diagrams/batch_diagram_val.png" width="550" height="180">
 
 ---
 
@@ -244,20 +242,15 @@ Color convention:
 - **blue** = ground truth
 - **red** = prediction
 
-<div align="center">
-  <img src="assets/Test Results/t1.png" width="320" height="200">
-  <img src="assets/Test Results/t11.png" width="320" height="200">
-</div>
 
-<div align="center">
-<img src="assets/Test Results/t2.png" width="320" height="200"> 
-<img src="assets/Test Results/t22.png" width="320" height="200">
-</div>
+<img src="assets/Test Results/t1.png" width="370" height="200">
+<img src="assets/Test Results/t11.png" width="370" height="200">
 
-<div align="center">
-<img src="assets/Test Results/t3.png" width="320" height="200"> 
-<img src="assets/Test Results/t33.png" width="320" height="200">
-</div>
+<img src="assets/Test Results/t2.png" width="370" height="200"> 
+<img src="assets/Test Results/t22.png" width="370" height="200">
+
+<img src="assets/Test Results/t3.png" width="370" height="200"> 
+<img src="assets/Test Results/t33.png" width="370" height="200">
 
 
 ---
