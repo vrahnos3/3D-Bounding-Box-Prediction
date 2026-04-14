@@ -184,9 +184,10 @@ Or to compare selected runs:
 ```bash
 tensorboard --logdir_spec "run1:.\runs\run1_A,run2:.\runs\run2_x"
 ```
-
-<img src="assets/Diagrams/names1.png" width="120" height="100"> 
-<img src="assets/Diagrams/batch_diagram_val.png" width="400" height="180">
+<div align="center">
+<img src="assets/Diagrams/names1.png" width="100" height="100"> 
+<img src="assets/Diagrams/batch_diagram_val.png" width="500" height="180">
+</div>
 
 ---
 
