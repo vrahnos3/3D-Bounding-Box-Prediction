@@ -243,8 +243,8 @@ Color convention:
 - **blue** = ground truth
 - **red** = prediction
 
-<img src="assets/Test Results/t1.png" width="370" height="200"> 
-<img src="assets/Test Results/t11.png" width="370" height="200">
+<img src="assets/Test Results/t1.png" width="350" height="200"> 
+<img src="assets/Test Results/t11.png" width="350" height="200">
 
 <img src="assets/Test Results/t2.png" width="370" height="200"> 
 <img src="assets/Test Results/t22.png" width="370" height="200">
