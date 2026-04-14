@@ -72,8 +72,8 @@ Create and activate your environment, then install the required packages.
 Example:
 
 ```bash
-conda create -n sereact python=3.11
-conda activate sereact
+conda create -n my_env python=3.11
+conda activate my_env
 ```
 ## Requirements
 
