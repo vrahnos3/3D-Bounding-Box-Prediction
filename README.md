@@ -116,6 +116,10 @@ python preprocess.py --data_path <path\to\the\data\folder> --output_path <your\p
 - `--use_rgb` : store RGB together with XYZ
 - `--overwrite` : overwrite existing preprocessed files
 - `--normalization_mode` : `unit_sphere` or `center_only`
+  
+<img src="assets/Preprocess/preprocess_og_vs_downsampled.png" width="250" height="110"> 
+<img src="assets/Preprocess/preprocess_og_vs_downsampled_normalized.png" width="250" height="110">
+
 
 ---
 
@@ -181,6 +185,9 @@ Or to compare selected runs:
 tensorboard --logdir_spec "run1:.\runs\run1_A,run2:.\runs\run2_x"
 ```
 
+<img src="assets/Diagrams/names1.png" width="250" height="100"> 
+<img src="assets/Diagrams/batch_diagram_val.png" width="390" height="180">
+
 ---
 
 ## 7. Testing / Inference
@@ -215,7 +222,6 @@ python test.py --config_path .\configs\config.yaml --list_test_scenes
 ```bash
 python test.py --config_path .\configs\config.yaml --scene_name scene_0007 --num_visualizations 5
 ```
-
 ---
 
 ## 8. Output of Testing
@@ -236,6 +242,18 @@ Color convention:
 
 - **blue** = ground truth
 - **red** = prediction
+
+<img src="assets/Test Results/t1.png" width="370" height="200"> 
+<img src="assets/Test Results/t11.png" width="370" height="200">
+
+<img src="assets/Test Results/t2.png" width="370" height="200"> 
+<img src="assets/Test Results/t22.png" width="370" height="200">
+
+<img src="assets/Test Results/t3.png" width="370" height="200"> 
+<img src="assets/Test Results/t33.png" width="370" height="200">
+
+<img src="assets/Test Results/t4.png" width="370" height="200"> 
+<img src="assets/Test Results/t44.png" width="370" height="200">
 
 ---
 
