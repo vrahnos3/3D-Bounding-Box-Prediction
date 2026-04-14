@@ -1,8 +1,0 @@
-{
-  "checkpoint_path": "checkpoints\\basic_100_epochs_batch128\\best.pt",
-  "num_test_instances": 214,
-  "normalized_corner_error": 1.0848616840683412,
-  "world_corner_error": 0.10465959745032766,
-  "normalized_center_error": 0.3588026884560273,
-  "world_center_error": 0.036640419024173344
-}
