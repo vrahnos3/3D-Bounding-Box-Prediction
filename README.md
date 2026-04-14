@@ -243,18 +243,25 @@ Color convention:
 - **blue** = ground truth
 - **red** = prediction
 
-<img src="assets/Test Results/t1.png" width="350" height="200"> 
-<img src="assets/Test Results/t11.png" width="350" height="200">
+<div align="center">
+  <img src="assets/Test Results/t1.png" width="320" height="200">
+  <img src="assets/Test Results/t11.png" width="320" height="200">
+</div>
 
-<img src="assets/Test Results/t2.png" width="370" height="200"> 
-<img src="assets/Test Results/t22.png" width="370" height="200">
+<div align="center">
+<img src="assets/Test Results/t2.png" width="320" height="200"> 
+<img src="assets/Test Results/t22.png" width="320" height="200">
+</div>
 
-<img src="assets/Test Results/t3.png" width="370" height="200"> 
-<img src="assets/Test Results/t33.png" width="370" height="200">
+<div align="center">
+<img src="assets/Test Results/t3.png" width="320" height="200"> 
+<img src="assets/Test Results/t33.png" width="320" height="200">
+</div>
 
-<img src="assets/Test Results/t4.png" width="370" height="200"> 
-<img src="assets/Test Results/t44.png" width="370" height="200">
-
+<div align="center">
+<img src="assets/Test Results/t4.png" width="320" height="200"> 
+<img src="assets/Test Results/t44.png" width="320" height="200">
+</div>
 ---
 
 ## 9. Future Extensions
