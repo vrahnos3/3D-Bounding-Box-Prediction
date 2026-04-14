@@ -116,10 +116,14 @@ python preprocess.py --data_path <path\to\the\data\folder> --output_path <your\p
 - `--use_rgb` : store RGB together with XYZ
 - `--overwrite` : overwrite existing preprocessed files
 - `--normalization_mode` : `unit_sphere` or `center_only`
-  
-<img src="assets/Preprocess/preprocess_og_vs_downsampled.png" width="250" height="110"> 
-<img src="assets/Preprocess/preprocess_og_vs_downsampled_normalized.png" width="250" height="110">
 
+Grey: original 3D object  |  Red: downsampled 3D object with FPS retaining its geometry
+
+<img src="assets/Preprocess/preprocess_og_vs_downsampled.png" width="30%"  height="120"> 
+
+Grey: normalized original 3D object  |  Red: normalized downsampled 3D object by centering and scaling at unit sphere
+
+<img src="assets/Preprocess/preprocess_og_vs_downsampled_normalized.png" width="30%"  height="120">
 
 ---
 
@@ -184,8 +188,18 @@ Or to compare selected runs:
 ```bash
 tensorboard --logdir_spec "run1:.\runs\run1_A,run2:.\runs\run2_x"
 ```
-<img src="assets/Diagrams/names1.png" width="100" height="100"> 
-<img src="assets/Diagrams/batch_diagram_val.png" width="550" height="180">
+
+Orange: Epochs 50 | Batch Size: 16
+
+Blue: Epochs 100 | Batch Size: 16
+
+Red: Epochs 100 | Batch Size: 128 --> **Best performance on validation data**
+
+Magenda: Epochs 100 | Batch Size: 256
+
+Light Blue: Epochs 100 | Batch Size: 512
+
+<img src="assets/Diagrams/batch_diagram_val.png" width="60%">
 
 ---
 
@@ -242,16 +256,14 @@ Color convention:
 - **blue** = ground truth
 - **red** = prediction
 
+  <img src="assets/Test Results/t1.png" width="370" height="200">
+  <img src="assets/Test Results/t11.png" width="370" height="200">
 
-<img src="assets/Test Results/t1.png" width="370" height="200">
-<img src="assets/Test Results/t11.png" width="370" height="200">
+  <img src="assets/Test Results/t2.png" width="370" height="200"> 
+  <img src="assets/Test Results/t22.png" width="370" height="200">
 
-<img src="assets/Test Results/t2.png" width="370" height="200"> 
-<img src="assets/Test Results/t22.png" width="370" height="200">
-
-<img src="assets/Test Results/t3.png" width="370" height="200"> 
-<img src="assets/Test Results/t33.png" width="370" height="200">
-
+  <img src="assets/Test Results/t3.png" width="370" height="200"> 
+  <img src="assets/Test Results/t33.png" width="370" height="200">
 
 ---
 
