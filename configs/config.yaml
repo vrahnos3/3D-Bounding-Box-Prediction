@@ -1,0 +1,24 @@
+experiment_name: 'basic_100_epochs_batch128'
+data:
+  data_path: 'C:\Users\panosvrachnos\Desktop\dl_challenge\'
+  batch_size: 128
+  num_workers: 4
+  train_ratio: 0.8
+  val_ratio: 0.1
+  test_ratio: 0.1
+  seed: 42
+
+model:
+  input_channels: 3 # 3 for XYZ, 6 for XYZRGB
+  dropout: 0.3
+
+train:
+  epochs: 100
+  lr: 0.001
+  weight_decay: 0.0001
+  use_amp: false # automatic mixed precision for float32, float16 etc...
+  scheduler: ~
+  checkpoint_dir: './checkpoints/basic_100_epochs_batch128'
+  center_loss_weight: 0.0
+
+
