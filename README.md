@@ -185,8 +185,8 @@ Or to compare selected runs:
 tensorboard --logdir_spec "run1:.\runs\run1_A,run2:.\runs\run2_x"
 ```
 
-<img src="assets/Diagrams/names1.png" width="250" height="100"> 
-<img src="assets/Diagrams/batch_diagram_val.png" width="390" height="180">
+<img src="assets/Diagrams/names1.png" width="120" height="100"> 
+<img src="assets/Diagrams/batch_diagram_val.png" width="400" height="180">
 
 ---
 
@@ -258,10 +258,7 @@ Color convention:
 <img src="assets/Test Results/t33.png" width="320" height="200">
 </div>
 
-<div align="center">
-<img src="assets/Test Results/t4.png" width="320" height="250"> 
-<img src="assets/Test Results/t44.png" width="320" height="200">
-</div>
+
 ---
 
 ## 9. Future Extensions
